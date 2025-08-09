@@ -14,14 +14,14 @@ This repository contains responsive web design examples, animations, and hands-o
 - **Styling:** Flexbox, Grid, Responsive Design, Animations
 - **Tools:** VS Code, Git, GitHub
 
-## 📸 Preview
-![Demo Screenshot](images/demo.png) <!-- Add your own screenshot here -->
+## 📸 My live site
+https://pradeepthi291.github.io/codetechtask/
 
 ## 🚀 Getting Started
 To run any project locally:
 ```bash
 # Clone this repository
-git clone https://github.com/Pradeepthi291/Code-tech.git
+git clone https://pradeepthi291.github.io/codetechtask/
 
 # Open the project folder in VS Code or your editor
 cd Code-tech
