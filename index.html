@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Webpage with Animations</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">MySite</div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#">Home</a></li>
+                <li><a href="#articles">Articles</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#quote">Quote</a></li>
+            </ul>
+            <div class="menu-icon" id="menuIcon">&#9776;</div>
+        </nav>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero fade-in">
+        <h1>Welcome to My Responsive Site</h1>
+        <p>This webpage adapts beautifully to any screen size — try resizing!</p>
+    </section>
+
+    <!-- Articles -->
+    <section id="articles" class="articles">
+        <h2>Latest Articles</h2>
+        <div class="article-container">
+            <article class="hidden">
+                <img src="C:\Users\V.VASUNDHARA\Desktop\Desktop files\codetech_TASK2\images\1.jpg" alt="Article 1">
+                <h3>Responsive Web Design</h3>
+                <p>Learn how to make your website adapt to all devices using HTML, CSS, and JavaScript.</p>
+            </article>
+            <article class="hidden">
+                <img src="C:\Users\V.VASUNDHARA\Desktop\Desktop files\codetech_TASK2\images\2.jpg" alt="Article 2">
+                <h3>Animations that Pop</h3>
+                <p>Discover how animations can improve user experience and engagement.</p>
+            </article>
+            <article class="hidden">
+                <img src="C:\Users\V.VASUNDHARA\Desktop\Desktop files\codetech_TASK2\images\3.jpg" alt="Article 3">
+                <h3>Clean & Modern Layouts</h3>
+                <p>Design layouts that are visually appealing and easy to navigate.</p>
+            </article>
+        </div>
+    </section>
+
+    <!-- Gallery -->
+    <section id="gallery" class="gallery">
+        <h2>Photo Gallery</h2>
+        <div class="gallery-container">
+            <img class="hidden" src="C:\Users\V.VASUNDHARA\Desktop\Desktop files\codetech_TASK2\images\4.jpg" alt="">
+            <img class="hidden" src="C:\Users\V.VASUNDHARA\Desktop\Desktop files\codetech_TASK2\images\5.jpg" alt="">
+            <img class="hidden" src="C:\Users\V.VASUNDHARA\Desktop\Desktop files\codetech_TASK2\images\3.jpg" alt="">
+            <img class="hidden" src="C:\Users\V.VASUNDHARA\Desktop\Desktop files\codetech_TASK2\images\1.jpg" alt="">
+        </div>
+    </section>
+
+    <!-- Quote -->
+    <section id="quote" class="quote-section hidden">
+        <blockquote>
+            “Design is not just what it looks like and feels like. Design is how it works.”  
+            <span>- Steve Jobs</span>
+        </blockquote>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 MySite | All rights reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
