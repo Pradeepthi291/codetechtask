@@ -1,3 +1,11 @@
+
+**Company Name:** CODTECH IT Solutions  
+**Intern Name:** Vinjamuri Pradeepthi  
+**Intern ID:** CT06DG2077  
+**Domain:** UI/UX Design  
+**Duration:** 6 Weeks  
+**Mentor:** Neela Santhosh  
+
 # Code-Tech 🚀
 
 A collection of projects, assignments, and experiments created during my learning journey in web development and programming.  
